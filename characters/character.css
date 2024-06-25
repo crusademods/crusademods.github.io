@@ -311,7 +311,7 @@ a:hover {
     display: inline-block;
 }
 
-#gb-icon {
+#gamebanana-link img {
     image-rendering: pixelated;
 }
 
@@ -335,4 +335,15 @@ a:hover {
 .download-sources a:hover {
     filter: none;
     background-color: var(--inf-grey4);
+}
+
+.download-release h3,
+.download-release time {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download-release time {
+    font-size: 10pt;
+    color: var(--inf-white2);
 }
